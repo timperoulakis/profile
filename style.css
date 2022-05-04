@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Raleway:wght@100;300;400;500;600&display=swap');
+
+body {
+  background-color: #f4f1de;
+  font-family: 'Open Sans', sans-serif;
+  color: #3d405b;
+  line-height: 20px;
+}
+
+h1, h2, h3 {
+  color: #81b29a;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+a {
+  color: #f2cc8f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #3d405b;
+}
+
+.container {
+  width: 500px;
+  margin: 0px auto;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 10px;
+  font-size: 40px;
+}
+
+.button-main {
+  background-color: #f2cc8f;
+  border-radius: 4px;
+  padding: 15px 20px;
+  color: white;
+  border: #81b29a;
+}
+
+.button-main:hover {
+  background-color: #3d405b;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
